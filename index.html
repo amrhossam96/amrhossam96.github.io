@@ -1,14 +1,51 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <title>Amr Hossam</title>
-    
-    <style>
-      body{background-color:#000; color:#fff;text-align:center;}
-    </style>
   </head>
-  
   <body>
-  <h1>This is Amr Hossam's Main Website</h1>
-    <h1>Website is under construction</h1>
+    <header class="header-container">
+      <div class="header-container__logo">
+        <h1 class="logo__heading">Amr</h1>
+      </div>
+        <ul class="navigation__list">
+          <li class="navigation-list-item">Home</li>
+          <li class="navigation-list-item">Projects</li>
+          <li class="navigation-list-item">Pricing</li>
+          <li class="navigation-list-item">Social</li>
+          <li class="navigation-list-item">Hire</li>
+        </ul>
+    </header>
+
+    <section class="section__main">
+      <div class="hero__text">
+        <h1 class="section__main__header-text">Amr Hossam</h1>
+        <h2 class="section__main__header-text-sec">Web developer</h2>
+        <p class="section-main__parag">
+            Front-End web developer with proven profficieny in the latest web frameworks and technologies
+        </p>
+
+        <div class="main__action-btns">
+            <button class="btn see-more">See more</button>
+            <button class="btn hire-me">Hire me</button>
+        </div>
+      </div>
+
+      <div class="hero-hero-avatar-container">
+          <img src="./hero-av.png" alt="hero-avatar" class="hero-av">
+      </div>
+
+    </section>
+
+    <!-- <section class="section__projects"></section>
+    <section class="section__pricing"></section>
+    <section class="section__social"></section>
+    <section class="section__hire"></section> -->
+
+    <script src="./app.js"></script>
   </body>
-  </html>
+</html>
