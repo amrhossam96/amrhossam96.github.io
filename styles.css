@@ -405,12 +405,17 @@ html {
     height: auto;
     padding: 10px 0;
   }
+  .section__pricing {
+    width: 100%;
+  }
   .plans-list {
     flex-direction: column;
     margin-top: 20px;
     height: 100vh;
     justify-content: space-evenly;
     margin-bottom: 50px;
+    padding: 5px;
+    list-style: none !important;
   }
   .plan-item__price {
     font-size: 12px;
@@ -419,7 +424,7 @@ html {
     width: 100%;
     margin-bottom: 10px;
     height: auto;
-    padding: 0;
+    padding: 2px;
   }
   .basic__list {
     font-size: 12px;
@@ -467,5 +472,10 @@ html {
   }
   .burgerPressed {
     display: block !important;
+  }
+  .basic__list {
+    list-style: none;
+    padding-left: 5px;
+    padding-bottom: 5px;
   }
 }
