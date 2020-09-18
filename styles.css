@@ -331,6 +331,7 @@ html {
     padding-bottom: 10px;
     margin-bottom: 40px;
   }
+
   .navigation-list-item {
     margin: 0 !important;
     padding: 0;
@@ -407,7 +408,9 @@ html {
   .plans-list {
     flex-direction: column;
     margin-top: 20px;
-    height: auto;
+    height: 100vh;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
   }
   .plan-item__price {
     font-size: 12px;
@@ -415,7 +418,8 @@ html {
   .plan-item {
     width: 100%;
     margin-bottom: 10px;
-    height: 30vh;
+    height: auto;
+    padding: 0;
   }
   .basic__list {
     font-size: 12px;
