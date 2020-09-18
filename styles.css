@@ -409,7 +409,7 @@ html {
     margin-top: 20px;
   }
   .plan-item__price {
-    font-size: 14px;
+    font-size: 12px;
   }
   .plan-item {
     width: 100%;
@@ -419,13 +419,13 @@ html {
     font-size: 12px;
   }
   .plan-item__header-basic {
-    font-size: 24px;
+    font-size: 18px;
   }
   .plan-item__header-intermediate {
-    font-size: 24px;
+    font-size: 18px;
   }
   .plan-item__header-pro {
-    font-size: 24px;
+    font-size: 18px;
   }
   .basic__list {
     margin: 0;
