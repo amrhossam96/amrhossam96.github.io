@@ -414,7 +414,7 @@ html {
   .plan-item {
     width: 100%;
     margin-bottom: 10px;
-    height: auto;
+    height: 30vh;
   }
   .basic__list {
     font-size: 12px;
