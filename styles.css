@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -135,6 +136,7 @@ html {
   outline: none;
   background-color: transparent;
   color: #fff;
+  text-decoration: none;
   transition: background-color 300ms;
 }
 
